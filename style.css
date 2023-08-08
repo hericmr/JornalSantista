@@ -83,10 +83,9 @@ h1 .headline-2 {
 }
 
 section {
-  column-width: 14em;
-  column-gap: 1.33em;
   padding: 0 3em;
 }
+
 section p:first-of-type:first-letter {
   float: left;
   font-size: 7em;
@@ -115,7 +114,8 @@ blockquote {
   width: 9em;
   background: #191919;
 }
-blockquote::before, blockquote::after {
+blockquote::before,
+blockquote::after {
   color: #ccc;
   font-size: 1.25em;
   line-height: 0;
