@@ -16,7 +16,7 @@ body {
 }
 
 .profile {
-  width: 50%;
+  width: 40%;
   position: fixed;
   top: 0;
   left: 0;
@@ -48,7 +48,7 @@ article {
 }
 
 article {
-  margin-left: 50%;
+  margin-left: 40%;
   position: relative;
   max-width: 66em;
 }
