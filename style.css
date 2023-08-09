@@ -15,7 +15,7 @@ body {
   height: 50vh;
   background-size: cover;
   width: 40%; /* Adicionado para definir a largura da lateral */
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   bottom: 0;
