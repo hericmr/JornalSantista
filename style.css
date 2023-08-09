@@ -6,6 +6,7 @@ html {
 
 body {
   padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 
 .profile {
@@ -13,17 +14,13 @@ body {
   box-shadow: inset 0 0 5em 1em #000;
   height: 50vh;
   background-size: cover;
-}
-
-.profile {
-  width: 50%;
+  width: 40%; /* Adicionado para definir a largura da lateral */
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
-  height: auto;
+  /* height: auto; REMOVIDO para evitar conflitos com a altura */
 }
-
 hr {
   overflow: visible;
   padding: 0;
@@ -32,7 +29,6 @@ hr {
   color: #333;
   text-align: center;
 }
-
 hr:after {
   content: "§";
   display: inline-block;
@@ -42,37 +38,32 @@ hr:after {
   padding: 0 0.25em;
   background: #cccccc;
 }
-
 article {
   color: #ccc;
 }
-
 article {
-  margin-left: 50%;
-  position: relative;
+  margin-left: 40%;
+  position: fixed;
   max-width: 66em;
 }
-
 header {
   text-align: center;
   padding: 0 2em;
 }
-
 h1 {
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 200;
 }
 h1 .headline-1,
 h1 .headline-2 {
   line-height: 1;
 }
 h1 .headline-1 {
-  font-size: 10.5vw;
+  font-size: 10vw;
 }
 h1 .headline-2 {
-  font-size: 8vw;
+  font-size: 7.5vw;
 }
-
 .subheading {
   color: #ccc;
   font-size: 1.5625em;
@@ -81,10 +72,7 @@ h1 .headline-2 {
   text-align: center;
   padding-bottom: 1.5em;
 }
-
 section {
-  column-width: 14em;
-  column-gap: 1.33em;
   padding: 0 3em;
 }
 section p:first-of-type:first-letter {
@@ -95,13 +83,11 @@ section p:first-of-type:first-letter {
   margin-bottom: -0.2em;
   margin-right: 0.1em;
 }
-
 img {
   max-width: 100%;
   margin-bottom: 1.33em;
   vertical-align: middle;
 }
-
 blockquote {
   border-left: 0.5em solid #ccc;
   font-size: 2em;
@@ -115,7 +101,8 @@ blockquote {
   width: 9em;
   background: #191919;
 }
-blockquote::before, blockquote::after {
+blockquote::before,
+blockquote::after {
   color: #ccc;
   font-size: 1.25em;
   line-height: 0;
