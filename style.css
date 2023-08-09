@@ -111,7 +111,7 @@ blockquote {
   margin-right: 0;
   position: absolute;
   right: 100%;
-  top: 200vh;
+  top: 60vh;
   width: 9em;
   background: #191919;
 }
@@ -125,4 +125,14 @@ blockquote::before {
 }
 blockquote::after {
   content: close-quote;
+}
+.sidebar-image {
+  background-position: center top;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  background-size: cover;
+  z-index: -1;
 }
